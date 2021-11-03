@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Main stylesheet link -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- google font CDN -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap CDN -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <title>Dream Books</title>
+  </head>
+  <body>
+    <!-- Navigation bar -->
+    <nav>
+      <div class="nav-header">
+        <div class="icon-container">
+          <i class="fab fa-twitter icon"></i>
+          <i class="fab fa-facebook icon"></i>
+          <i class="fab fa-instagram icon"></i>
+        </div>
+        <div class="logo-container">
+          <h1 class="logo-text1">DREAM</h1>
+          <h1 class="logo-text2">BOOKS</h1>
+        </div>
+        <div class="searchBar-container">
+          <input type="text" placeholder="Search your book" />
+          <i class="fas fa-search searchIcon"></i>
+        </div>
+      </div>
+      <div class="nav-links">
+        <a href="#home" alt="#" class="home-button">HOME</a>
+        <a href="#about" alt="#" class="nav-button">About</a>
+        <a href="#topBooks" alt="#" class="nav-button">Top Books</a>
+        <a href="#author" alt="#" class="nav-button">Author</a>
+        <a href="#contact" alt="#" class="nav-button">Contact</a>
+      </div>
+    </nav>
+
+    <!-- Header section -->
+    <section class="header-container">
+      <div class="header-content">
+        <div class="headerText-container">
+          <h1>Good books don't give up all their secrets at once</h1>
+          <p>
+            A small river named Duden flows by their place and supplies it with
+            the necessary regelialia.
+          </p>
+        </div>
+        <div class="headerButton-container">
+          <button class="book-button">Books</button>
+          <button class="explore-button">Explore</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Catagory section style-->
+    <section class="catagory-section">
+      <div class="card-container">
+        <img src="./blackbook.png" alt="" class="card-img" />
+        <div class="card-text">
+          <h1>History</h1>
+          <p>a little book is most beautiful than a big city</p>
+        </div>
+      </div>
+
+      <div class="card-container">
+        <img src="./blackbook.png" alt="" class="card-img" />
+        <div class="card-text">
+          <h1>Drama</h1>
+          <p>a little book is most beautiful than a big city</p>
+        </div>
+      </div>
+
+      <div class="card-container">
+        <img src="./blackbook.png" alt="" class="card-img" />
+        <div class="card-text">
+          <h1>Thriller</h1>
+          <p>a little book is most beautiful than a big city</p>
+        </div>
+      </div>
+
+      <div class="card-container">
+        <img src="./blackbook.png" alt="" class="card-img" />
+        <div class="card-text">
+          <h1>Horror</h1>
+          <p>a little book is most beautiful than a big city</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- New release books  section -->
+    <section class="new-release">
+      <div class="headline-container">
+        <h1><span style="color: lightsalmon">New</span> Release Books</h1>
+      </div>
+
+      <div class="slider-container">
+        <!-- slider using bootstrap carousel -->
+        <div
+          id="carouselExampleIndicators"
+          class="carousel slide"
+          data-ride="carousel"
+        >
+          <ol class="carousel-indicators">
+            <li
+              data-target="#carouselExampleIndicators"
+              data-slide-to="0"
+              class="active"
+            ></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+          </ol>
+          <div class="carousel-inner">
+            <div class="carousel-item active slider-body">
+              <img
+                class="d-block w-100"
+                src="/openbook.png"
+                alt="First slide"
+              />
+            </div>
+            <div class="carousel-item slider-body">
+              <img
+                class="d-block w-100"
+                src="/bookmess.png"
+                alt="First slide"
+              />
+            </div>
+            <div class="carousel-item slider-body">
+              <img
+                class="d-block w-100"
+                src="/bookshelf.png"
+                alt="First slide"
+              />
+            </div>
+          </div>
+          <a
+            class="carousel-control-prev"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="prev"
+          >
+            <span class="carousel-control-prev-icon"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a
+            class="carousel-control-next"
+            href="#carouselExampleIndicators"
+            role="button"
+            data-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="false"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section class="about-section" id="about">
+      <div class="about-header">
+        <h1>ABOUT</h1>
+      </div>
+      <div class="about-body">
+        <div class="about-text">
+          <h1>Welcome to Dream Books.!</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+            numquam eius sequi ut voluptatem voluptate nemo in asperiores
+            eligendi quo?
+          </p>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ratione
+            est debitis ipsum, velit quis aut.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+            magnam, deserunt provident delectus nulla iusto!
+          </p>
+        </div>
+        <div class="about-banner">
+          <img src="./booktree.png" alt="About Us" />
+        </div>
+      </div>
+    </section>
+
+    <!--Top books section-->
+    <section class="topBooks-container" id="topBooks">
+      <div class="topBooks-header">
+        <h1><span style="color: lightsalmon">Top</span> Books</h1>
+      </div>
+      <div class="topBooks-banner">
+        <img src="./topbooks.png" alt="Top Books" />
+      </div>
+    </section>
+
+    <!-- Footer/Contact section -->
+    <section class="footer-container">
+      <div class="footer-title">
+        <h1>Contacts</h1>
+      </div>
+      <div class="footer-content">
+        <div class="footer-item">
+          <h2>Connect</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique,
+            doloribus.
+          </p>
+          <div class="icon-container">
+            <i class="fab fa-twitter icon" href="https://google.com"></i>
+            <i class="fab fa-facebook icon"></i>
+            <i class="fab fa-instagram icon"></i>
+          </div>
+        </div>
+        <div class="footer-item">
+          <h2>Extra Links</h2>
+          <p>Affiliate Program</p>
+          <p>Business Services</p>
+          <p>Education Services</p>
+          <p>Gift Cards</p>
+        </div>
+        <div class="footer-item">
+          <h2>Legal</h2>
+          <p>Join Us</p>
+          <p>Blog</p>
+          <p>Privacy & Policy</p>
+          <p>Terms & Conditions</p>
+        </div>
+        <div class="footer-item">
+          <h2>Company</h2>
+          <p>About Us</p>
+          <p>Blog</p>
+          <p>Contact</p>
+          <p>Carrier</p>
+        </div>
+        <div class="footer-item">
+          <h2>Have a quistion?</h2>
+          <p>203 Fake St, Mountain</p>
+          <p>View, San Diego, California, USA</p>
+          <p>+8801908037199</p>
+          <p>info@dreambooks.com</p>
+        </div>
+      </div>
+      <div class="copyright">All rights 202 are reserved by @Dev-Shabbir</div>
+    </section>
+
+    <!-- Font awesome Script -->
+    <script
+      src="https://kit.fontawesome.com/e0b305103a.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- bootstrap scripts( below 3 scripts used for using bootstrap carousel/slider) -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
