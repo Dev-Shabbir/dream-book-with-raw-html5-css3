@@ -384,6 +384,10 @@ input {
 
   /* Header section styles */
 
+  .header-container {
+    background-size: 100vw 60vw;
+  }
+
   .header-content {
     padding: 15px;
   }
